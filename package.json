@@ -1,0 +1,24 @@
+{
+  "name": "caps-driver",
+  "version": "1.0.0",
+  "description": "## This lab simulates the cycle a system goes through when a package is requested to be picked up, in-transit, and finally delivered to the client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keian-A/caps-driver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keian-A/caps-driver/issues"
+  },
+  "homepage": "https://github.com/Keian-A/caps-driver#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "socket.io-client": "^4.1.2"
+  }
+}
