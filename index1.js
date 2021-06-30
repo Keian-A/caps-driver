@@ -3,7 +3,7 @@
 require('dotenv').config();
 const io = require('socket.io-client');
 const BASE_URL = process.env.BASE_URL;
-const EXTENSION = process.env.EXTENSION;
+const EXTENSION = process.env.EXTENSION1;
 const client = io.connect(`${BASE_URL}/${EXTENSION}`);
 
 client.emit('getall');
